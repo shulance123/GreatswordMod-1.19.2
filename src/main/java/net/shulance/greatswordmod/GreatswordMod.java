@@ -1,6 +1,8 @@
 package net.shulance.greatswordmod;
 
 import net.fabricmc.api.ModInitializer;
+import net.shulance.greatswordmod.item.ModItemGroup;
+import net.shulance.greatswordmod.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -10,6 +12,7 @@ public class GreatswordMod implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-		LOGGER.info("Hello Fabric world!");
+		ModItems.registerModItems();
+		ModItemGroup.registerItemGroups();
 	}
 }
