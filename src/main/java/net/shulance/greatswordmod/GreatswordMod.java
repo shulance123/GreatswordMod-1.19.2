@@ -12,7 +12,7 @@ public class GreatswordMod implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-		ModItems.registerModItems();
 		ModItemGroup.registerItemGroups();
+		ModItems.registerModItems();
 	}
 }

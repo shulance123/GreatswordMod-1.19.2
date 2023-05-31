@@ -37,8 +37,8 @@ dependencies {
 	// Uncomment the following line to enable the deprecated Fabric API modules. 
 	// These are included in the Fabric API production distribution and allow you to update your mod to the latest modules at a later more convenient time.
 
-	// modImplementation "net.fabricmc.fabric-api:fabric-api-deprecated:${project.fabric_version}"
-	implementation files('dependencies/reach-entity-attributes-2.3.1.jar')
+	modImplementation "net.fabricmc.fabric-api:fabric-api-deprecated:${project.fabric_version}"
+	modImplementation files('dependencies/reach-entity-attributes-2.3.1.jar')
 }
 
 processResources {

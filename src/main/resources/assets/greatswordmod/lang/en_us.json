@@ -1,5 +1,7 @@
 {
   "item.greatswordmod.iron_greatsword": "Iron Greatsword",
+  "item.greatswordmod.diamond_greatsword": "Diamond Greatsword",
+  "item.greatswordmod.netherite_greatsword": "Netherite Greatsword",
 
   "itemgroup.greatswords": "GreatswordMod"
 }
